@@ -7,7 +7,7 @@ The goal of this feature is to allocate users to astrologers in a fair and balan
 
 ### Secondary Feature
 Additionally, it includes CRUD operations for astrologers and a toggle mechanism for prioritizing top astrologers.
-site https://gurucool-astro-assign.onrender.com
+
 ---
 
 ## Key Features
