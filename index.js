@@ -2,7 +2,7 @@ const express = require("express");
  const connectDB= require('./config/db');
 const app = express();
 const cors = require("cors");
-const PORT = 3000;
+// const PORT = 3000;
 require('dotenv').config();
 const authRoutes = require("./routes/authRoutes");
 // const URI ="mongodb+srv://sujitkymar101:sujitkymar101@cluster0.7hkoe.mongodb.net/";
@@ -27,6 +27,6 @@ app.use("/api", authRoutes);
 
 
 // Start the server
-app.listen(PORT, ()=>{
-  console.log(`server is running on port ${PORT}`);
+app.listen(process.env.PORT, ()=>{
+  console.log(`server is running on port ${process.env.PORT}`);
 })
