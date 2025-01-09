@@ -12,16 +12,16 @@ Additionally, it includes CRUD operations for astrologers and a toggle mechanism
 
 ## Key Features
 ### User Authentication
--Secure signup and signin endpoints for user authentication.
--Logout functionality to terminate user sessions.
+- Secure signup and signin endpoints for user authentication
+- Logout functionality to terminate user sessions.
 ### User Management
--Retrieve a list of all registered users.
--Dynamically allocate users to astrologers based on defined parameters.
--Update user-astrologer allocations as needed.
+- Retrieve a list of all registered users.
+- Dynamically allocate users to astrologers based on defined parameters.
+- Update user-astrologer allocations as needed.
 ### Astrologer Management
--Fetch all astrologers along with their details (e.g., connection capacity, prioritization status).
--Create, update, and delete astrologers.
-Support for dynamic flow updates through adjustable factors like flowBoostFactor.
+- Fetch all astrologers along with their details (e.g., connection capacity, prioritization status).
+- Create, update, and delete astrologers.
+- Support for dynamic flow updates through adjustable factors like flowBoostFactor.
 
 ##  API Documentation
 
